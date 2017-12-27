@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mainone.CollectionActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadingEdge="vertical"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/dujiang_weir"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="都江堰是中国古代建设并使用至今的大型水利工程，位于四川省都江堰市城西，岷江上游340公里处。都江堰是由战国时期秦国蜀郡太守李冰及其子于约前256年至前251年主持始建的。经过历代整修，两千多年来都江堰依然发挥巨大的作用。都江堰周边的古迹甚多，主要有二王庙、伏龙观、安澜桥、玉垒关、凤栖窝和斗犀台等。"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="整个都江堰枢纽可分为堰首和灌溉水网两大系统，其中堰首包括鱼嘴（分水工程）、飞沙堰（溢洪排沙工程）、宝瓶口（引水工程）三大主体工程，此外还有内外金刚堤、人字堤及其他附属建筑。都江堰工程以引水灌溉为主，兼有防洪排沙、水运、城市供水等综合效用。它所灌溉的成都平原是闻名天下的“天府之国”。"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1980年7月7日列为四川省重新确定公布的第一批省级文物保护单位。1982年2月24日公布为第二批全国重点文物保护单位。2000年，都江堰以其为“当今世界年代久远、惟一留存、以无坝引水为特征的宏大水利工程”，与青城山共同作为一项世界文化遗产被列入世界遗产名录。"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

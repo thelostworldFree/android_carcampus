@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/nav_bottom_color">
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:focusable="false"
+        android:padding="1dp"
+        android:src="@drawable/news_main_btn"
+        android:layout_width="30dip"
+        android:layout_height="30dip" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="首页"
+        android:textSize="@dimen/list_cat_size"
+        android:textColor="@color/nav_font_color">
+    </TextView>
+    <!-- textColor="@android:color/black">-->
+
+</LinearLayout>

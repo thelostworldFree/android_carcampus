@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cn.teachcourse.www.MainTabHostActivity" >
+
+    <!--<item-->
+        <!--android:id="@+id/action_settings"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="@string/action_settings"-->
+        <!--app:showAsAction="never"/>-->
+    <item
+        android:id="@+id/action_search"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:icon="@mipmap/actionbar_search_icon"
+        app:actionViewClass="android.widget.SearchView"
+        android:title="@string/action_search"
+        android:layout_width="30dip"
+        android:layout_height="30dip"/>
+
+</menu>
